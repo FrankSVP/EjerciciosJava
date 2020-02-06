@@ -21,12 +21,13 @@ public class Recursividad {
         
         Scanner myObj = new Scanner(System.in);
         Recursividad objeto = new Recursividad();
-      System.out.print("Ingrese el número correspondiente para");
+      System.out.println("SIN RUEDA TECNOLÓGICA");
+      System.out.println("Ingrese el número para calcular su factorial");
       String numero = myObj.nextLine();
      resultado= objeto.factorial(Integer.parseInt(numero)) ;
         
       System.err.println("El factorial es: "+ String.valueOf(resultado) );
-     
+      System.out.println("By Frank Sócrates Valencia Pinto");
     }
     
     
